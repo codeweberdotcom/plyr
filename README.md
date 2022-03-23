@@ -1,46 +1,46 @@
-🎉 | [Plyr is merging into Vidstack](https://github.com/sampotts/plyr/issues/2408) | 🎉
+🎉 | [Plyr объединяется с Vidstack](https://github.com/sampotts/plyr/issues/2408) | 🎉
 :---: | :---: | :---
 
-Plyr is a simple, lightweight, accessible and customizable HTML5, YouTube and Vimeo media player that supports [_modern_](#browser-support) browsers.
+Plyr — это простой, легкий, доступный и настраиваемый медиаплеер HTML5, YouTube и Vimeo, который поддерживает [_современные_](#browser-support) браузеры.
 
-[Checkout the demo](https://plyr.io) - [Donate](#donate) - [Slack](https://bit.ly/plyr--chat)
+[Смотреть Демо](https://plyr.io) - [Пожеотвовать](#donate) - [Slack](https://bit.ly/plyr--chat)
 
-[![npm version](https://badge.fury.io/js/plyr.svg)](https://badge.fury.io/js/plyr) [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/sampotts/plyr) [![Financial Contributors on Open Collective](https://opencollective.com/plyr/all/badge.svg?label=financial+contributors)](https://opencollective.com/plyr)
+[![npm версия](https://badge.fury.io/js/plyr.svg)](https://badge.fury.io/js/plyr) [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/sampotts/plyr) [![Financial Contributors on Open Collective](https://opencollective.com/plyr/all/badge.svg?label=financial+contributors)](https://opencollective.com/plyr)
 
 [![Image of Plyr](https://cdn.plyr.io/static/demo/screenshot.png?v=3)](https://plyr.io)
 
-# Features
+# Преимущества
 
-- 📼 **HTML Video & Audio, YouTube & Vimeo** - support for the major formats
-- 💪 **Accessible** - full support for VTT captions and screen readers
-- 🔧 **[Customizable](#html)** - make the player look how you want with the markup you want
-- 😎 **Clean HTML** - uses the _right_ elements. `<input type="range">` for volume and `<progress>` for progress and well, `<button>`s for buttons. There's no
+- 📼 **HTML видео и аудио, YouTube и Vimeo** — поддержка основных форматов
+- 💪 **Доступность** — полная поддержка субтитров VTT и программ чтения с экрана
+- 🔧 **[Настраиваемый](#html)** - сделайте так, чтобы плеер выглядел так, как вы хотите, с нужной вам разметкой
+- 😎 **Чистый HTML** — использует _правильные_ элементы. `<input type="range">` для громкости и `<progress>` для прогресса и ну, `<button>` для кнопок. Нет никаких
   `<span>` or `<a href="#">` button hacks
-- 📱 **Responsive** - works with any screen size
-- 💵 **[Monetization](#ads)** - make money from your videos
-- 📹 **[Streaming](#demos)** - support for hls.js, Shaka and dash.js streaming playback
-- 🎛 **[API](#api)** - toggle playback, volume, seeking, and more through a standardized API
-- 🎤 **[Events](#events)** - no messing around with Vimeo and YouTube APIs, all events are standardized across formats
-- 🔎 **[Fullscreen](#fullscreen)** - supports native fullscreen with fallback to "full window" modes
-- ⌨️ **[Shortcuts](#shortcuts)** - supports keyboard shortcuts
-- 🖥 **Picture-in-Picture** - supports picture-in-picture mode
-- 📱 **Playsinline** - supports the `playsinline` attribute
-- 🏎 **Speed controls** - adjust speed on the fly
-- 📖 **Multiple captions** - support for multiple caption tracks
-- 🌎 **i18n support** - support for internationalization of controls
-- 👌 **[Preview thumbnails](#preview-thumbnails)** - support for displaying preview thumbnails
-- 🤟 **No frameworks** - written in "vanilla" ES6 JavaScript, no jQuery required
-- 💁‍♀️ **Sass** - to include in your build processes
+- 📱 **Отзывчивый** - работает с любым размером экрана
+- 💵 **[Монетизация](#ads)** — зарабатывайте на своих видео
+- 📹 **[Streaming](#demos)** - поддержка потокового воспроизведения hls.js, Shaka и dash.js
+- 🎛 **[API](#api)** — переключайте воспроизведение, громкость, поиск и т. д. с помощью стандартизированного API.
+- 🎤 **[Events](#events)** – не нужно возиться с API Vimeo и YouTube, все события стандартизированы для разных форматов.
+- 🔎 **[Полноэкранный режим](#fullscreen)** — поддерживает собственный полноэкранный режим с откатом к режимам «полного окна».
+- ⌨️ **[Shortcuts](#shortcuts)** — поддерживает сочетания клавиш
+- 🖥 **Картинка в картинке** — поддерживает режим «картинка в картинке».
+- 📱 **Playsinline** — поддерживает атрибут `playsinline`
+- 🏎 **Управление скоростью** - регулируйте скорость на лету
+- 📖 **Несколько титров** — поддержка нескольких дорожек титров.
+- 🌎 **i18n support** — поддержка интернационализации элементов управления
+- 👌 **[Эскизы предварительного просмотра](#preview-thumbnails)** — поддержка отображения миниатюр предварительного просмотра.
+- 🤟 **Без фреймворков** — написан на «ванильном» ES6 JavaScript, jQuery не требуется.
+- 💁‍♀️ **Sass** — для включения в процессы сборки
 
-### Demos
+### Демо
 
-You can try Plyr in Codepen using our minimal templates: [HTML5 video](https://codepen.io/pen?template=bKeqpr), [HTML5 audio](https://codepen.io/pen?template=rKLywR), [YouTube](https://codepen.io/pen?template=GGqbbJ), [Vimeo](https://codepen.io/pen?template=bKeXNq). For Streaming we also have example integrations with: [Dash.js](https://codepen.io/pen?template=GRoogML), [Hls.js](https://codepen.io/pen?template=oyLKQb) and [Shaka Player](https://codepen.io/pen?template=ZRpzZO)
+Вы можете попробовать Plyr в Codepen, используя наши минимальные шаблоны: [видео HTML5](https://codepen.io/pen?template=bKeqpr), [аудио HTML5](https://codepen.io/pen?template=rKLywR) , [YouTube](https://codepen.io/pen?template=GGqbbJ), [Vimeo](https://codepen.io/pen?template=bKeXNq). Для потоковой передачи у нас также есть примеры интеграции с: [Dash.js](https://codepen.io/pen?template=GRoogML), [Hls.js](https://codepen.io/pen?template=oyLKQb) и [Shaka Player](https://codepen.io/pen?template=ZRpzZO)
 
-# Quick setup
+# Быстрая установка
 
 ## HTML
 
-Plyr extends upon the standard [HTML5 media element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement) markup so that's all you need for those types.
+Plyr расширяет стандартную разметку [элемент мультимедиа HTML5] (https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement), так что это все, что вам нужно для этих типов.
 
 ### HTML5 Video
 
@@ -54,7 +54,7 @@ Plyr extends upon the standard [HTML5 media element](https://developer.mozilla.o
 </video>
 ```
 
-**Note**: The poster image should be specified using `data-poster`. This is to prevent it [being downloaded twice](https://github.com/sampotts/plyr/issues/1531). If you're sure the image will be cached, you can still use the `poster` attribute for true progressive enhancement.
+**Примечание**: Изображение плаката должно быть указано с помощью `data-poster`. Это сделано для того, чтобы предотвратить [загрузку дважды] (https://github.com/sampotts/plyr/issues/1531). Если вы уверены, что изображение будет кэшировано, вы все равно можете использовать атрибут `poster` для истинного прогрессивного улучшения.
 
 ### HTML5 Audio
 
@@ -65,11 +65,12 @@ Plyr extends upon the standard [HTML5 media element](https://developer.mozilla.o
 </audio>
 ```
 
-For YouTube and Vimeo players, Plyr uses progressive enhancement to enhance the default `<iframe>` embeds. Below are some examples. The `plyr__video-embed` classname will make the embed responsive. You can add the `autoplay`, `loop`, `hl` (YouTube only) and `playsinline` (YouTube only) query parameters to the URL and they will be set as config options automatically. For YouTube, the `origin` should be updated to reflect the domain you're hosting the embed on, or you can opt to omit it.
+Для проигрывателей YouTube и Vimeo Plyr использует прогрессивное улучшение для улучшения встраивания `<iframe>` по умолчанию. Ниже приведены некоторые примеры. Имя класса plyr__video-embed сделает вставку адаптивной. Вы можете добавить параметры запроса `autoplay`, `loop`, `hl` (только для YouTube) и `playsinline` (только для YouTube) к URL-адресу, и они будут автоматически установлены в качестве параметров конфигурации. Для YouTube «происхождение» должно быть обновлено, чтобы отразить домен, на котором вы размещаете вставку, или вы можете не указывать его.
 
 ### YouTube
 
-We recommend [progressive enhancement](https://www.smashingmagazine.com/2009/04/progressive-enhancement-what-it-is-and-how-to-use-it/) with the embedded players. You can elect to use an `<iframe>` as the source element (which Plyr will progressively enhance) or a bog standard `<div>` with two essential data attributes - `data-plyr-provider` and `data-plyr-embed-id`.
+Мы рекомендуем [прогрессивное улучшение] (https://www.smashingmagazine.com/2009/04/progressive-enhancement-what-it-is-and-how-to-use-it/) со встроенными проигрывателями. Вы можете использовать `<iframe>` в качестве исходного элемента (который Plyr будет постепенно улучшать) или стандартный `<div>` с двумя важными атрибутами данных – `data-plyr-provider` и `data-plyr-embed-id`.
+
 
 ```html
 <div class="plyr__video-embed" id="player">
@@ -82,19 +83,19 @@ We recommend [progressive enhancement](https://www.smashingmagazine.com/2009/04/
 </div>
 ```
 
-_Note_: The `plyr__video-embed` classname will make the player a responsive 16:9 (most common) iframe embed. When plyr itself kicks in, your custom `ratio` config option will be used.
+_Примечание_: имя класса `plyr__video-embed` сделает проигрыватель адаптивным встраиванием iframe с соотношением сторон 16:9 (наиболее распространенное). Когда запустится сам plyr, будет использована ваша пользовательская опция конфигурации `ratio`.
 
-Or the `<div>` non progressively enhanced method:
+Или метод `<div>` без прогрессивного расширения:
 
 ```html
 <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="bTqVqk7FSmY"></div>
 ```
 
-_Note_: The `data-plyr-embed-id` can either be the video ID or URL for the media.
+_Примечание_: `data-plyr-embed-id` может быть либо идентификатором видео, либо URL-адресом медиафайла.
 
 ### Vimeo
 
-Much the same as YouTube above.
+Почти так же, как YouTube выше.
 
 ```html
 <div class="plyr__video-embed" id="player">
@@ -107,7 +108,7 @@ Much the same as YouTube above.
 </div>
 ```
 
-Or the `<div>` non progressively enhanced method:
+Или метод `<div>` без прогрессивного расширения:
 
 ```html
 <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="76979871"></div>
@@ -115,7 +116,7 @@ Or the `<div>` non progressively enhanced method:
 
 ## JavaScript
 
-You can use Plyr as an ES6 module as follows:
+Вы можете использовать Plyr в качестве модуля ES6 следующим образом:
 
 ```javascript
 import Plyr from 'plyr';
@@ -123,7 +124,7 @@ import Plyr from 'plyr';
 const player = new Plyr('#player');
 ```
 
-Alternatively you can include the `plyr.js` script before the closing `</body>` tag and then in your JS create a new instance of Plyr as below.
+В качестве альтернативы вы можете включить скрипт `plyr.js` перед закрывающим тегом `</body>`, а затем в своем JS создать новый экземпляр Plyr, как показано ниже.
 
 ```html
 <script src="path/to/plyr.js"></script>
@@ -132,15 +133,15 @@ Alternatively you can include the `plyr.js` script before the closing `</body>` 
 </script>
 ```
 
-See [initialising](#initialising) for more information on advanced setups.
+См. [initialising](#initialising) для получения дополнительной информации о дополнительных настройках.
 
-You can use our CDN (provided by [Fastly](https://www.fastly.com/)) for the JavaScript. There's 2 versions; one with and one without [polyfills](#polyfills). My recommendation would be to manage polyfills separately as part of your application but to make life easier you can use the polyfilled build.
+Вы можете использовать нашу CDN (предоставленную [Fastly](https://www.fastly.com/)) для JavaScript. Есть 2 версии; один с и один без [polyfills](#polyfills). Я бы порекомендовал управлять полифиллами отдельно как часть вашего приложения, но чтобы упростить жизнь, вы можете использовать полифилл-сборку.
 
 ```html
 <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
 ```
 
-...or...
+...или...
 
 ```html
 <script src="https://cdn.plyr.io/3.6.12/plyr.polyfilled.js"></script>
@@ -148,13 +149,13 @@ You can use our CDN (provided by [Fastly](https://www.fastly.com/)) for the Java
 
 ## CSS
 
-Include the `plyr.css` stylesheet into your `<head>`.
+Включите таблицу стилей `plyr.css` в ваш `<head>`.
 
 ```html
 <link rel="stylesheet" href="path/to/plyr.css" />
 ```
 
-If you want to use our CDN (provided by [Fastly](https://www.fastly.com/)) for the default CSS, you can use the following:
+Если вы хотите использовать нашу CDN (предоставленную [Fastly](https://www.fastly.com/)) для CSS по умолчанию, вы можете использовать следующее:
 
 ```html
 <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
@@ -162,30 +163,30 @@ If you want to use our CDN (provided by [Fastly](https://www.fastly.com/)) for t
 
 ## SVG Sprite
 
-The SVG sprite is loaded automatically from our CDN (provided by [Fastly](https://www.fastly.com/)). To change this, see the [options](#options) below. For
-reference, the CDN hosted SVG sprite can be found at `https://cdn.plyr.io/3.6.12/plyr.svg`.
+Спрайт SVG автоматически загружается из нашего CDN (предоставляется [Fastly](https://www.fastly.com/)). Чтобы изменить это, см. [options](#options) ниже. Для
+Ссылка, спрайт SVG, размещенный в CDN, можно найти по адресу `https://cdn.plyr.io/3.6.12/plyr.svg`.
 
 # Ads
 
-Plyr has partnered up with [vi.ai](https://vi.ai/publisher-video-monetization/?aid=plyrio) to offer monetization options for your videos. Getting setup is easy:
+Plyr сотрудничает с [vi.ai](https://vi.ai/publisher-video-monetization/?aid=plyrio), чтобы предлагать варианты монетизации ваших видео. Получить настройку легко:
 
-- [Sign up for a vi.ai account](https://vi.ai/publisher-video-monetization/?aid=plyrio)
-- Grab your publisher ID from the code snippet
-- Enable ads in the [config options](#options) and enter your publisher ID
+- [Зарегистрируйте учетную запись vi.ai](https://vi.ai/publisher-video-monetization/?aid=plyrio)
+- Возьмите свой идентификатор издателя из фрагмента кода.
+- Включите рекламу в [опциях конфигурации](#options) и введите свой идентификатор издателя.
 
-Any questions regarding the ads can be sent straight to vi.ai and any issues with rendering raised through GitHub issues.
+Любые вопросы, касающиеся рекламы, можно отправлять прямо на vi.ai, а любые проблемы с рендерингом — через вопросы GitHub.
 
-If you do not wish to use Vi, you can set your own `ads.tagUrl` [option](#options).
+Если вы не хотите использовать Vi, вы можете установить свой собственный `ads.tagUrl` [option](#options).
 
-# Advanced
+# Продвинутые настройки
 
-## Customizing the CSS
+## Настройка CSS
 
-If you want to change any design tokens used for the rendering of the player, you can do so using [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties).
+Если вы хотите изменить какие-либо маркеры дизайна, используемые для рендеринга проигрывателя, вы можете сделать это с помощью [CSS Custom Properties] (https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties).
 
-Here's a list of the properties and what they are used for:
+Вот список свойств и то, для чего они используются:
 
-| Name                                           | Description                                                                                             | Default / Fallback                                                    |
+| Наименование                                           | Описание                                                                                            | По умолчанию/Резервный                                              |
 | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | `--plyr-color-main`                            | The primary UI color.                                                                                   | ![#f03c15](https://place-hold.it/15/00b3ff/000000?text=+) `#00b3ff`   |
 | `--plyr-video-background`                      | The background color of video and poster wrappers for using alpha channel videos and poster images.     | `rgba(0, 0, 0, 1)`                                                    |
@@ -251,7 +252,7 @@ Here's a list of the properties and what they are used for:
 | `--plyr-line-height`                           | The line height used within the player.                                                                 | `1.7`                                                                 |
 | `--plyr-font-smoothing`                        | Whether to enable font antialiasing within the player.                                                  | `false`                                                               |
 
-You can set them in your CSS for all players:
+Вы можете установить их в своем CSS для всех игроков:
 
 ```css
 :root {
@@ -259,7 +260,7 @@ You can set them in your CSS for all players:
 }
 ```
 
-...or for a specific class name:
+... или для определенного имени класса:
 
 ```css
 .player {
@@ -267,7 +268,7 @@ You can set them in your CSS for all players:
 }
 ```
 
-...or in your HTML:
+...или в вашем HTML:
 
 ```html
 <video class="player" style="--plyr-color-main: #1ac266;">...</video>
@@ -275,26 +276,26 @@ You can set them in your CSS for all players:
 
 ### Sass
 
-You can use `plyr.scss` file included in `/src/sass` as part of your build and change variables to suit your design. The Sass requires you to
-use [autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer) (you should be already!) as all declarations use the W3C definitions.
+Вы можете использовать файл `plyr.scss`, включенный в `/src/sass`, как часть вашей сборки и изменить переменные в соответствии с вашим дизайном. Sass требует от вас
+используйте [autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer) (вы уже должны это сделать!), поскольку все объявления используют определения W3C.
 
-The HTML markup uses the BEM methodology with `plyr` as the block, e.g. `.plyr__controls`. You can change the class hooks in the options to match any custom CSS
-you write. Check out the JavaScript source for more on this.
+Разметка HTML использует методологию БЭМ с «plyr» в качестве блока, например. `.plyr__controls`. Вы можете изменить хуки класса в параметрах, чтобы они соответствовали любому пользовательскому CSS.
+ты пишешь. Ознакомьтесь с исходным кодом JavaScript, чтобы узнать больше об этом.
 
 ## SVG
 
-The icons used in the Plyr controls are loaded in an SVG sprite. The sprite is automatically loaded from our CDN by default. If you already have an icon build
-system in place, you can include the source plyr icons (see `/src/sprite` for source icons).
+Значки, используемые в элементах управления Plyr, загружаются в спрайт SVG. По умолчанию спрайт автоматически загружается из нашего CDN. Если у вас уже есть сборка значка
+на месте, вы можете включить исходные значки plyr (см. `/src/sprite` для исходных значков).
 
-### Using the `iconUrl` option
+### Использование опции `iconUrl`
 
-You can however specify your own `iconUrl` option and Plyr will determine if the url is absolute and requires loading by AJAX/CORS due to current browser
-limitations or if it's a relative path, just use the path directly.
+Однако вы можете указать свою собственную опцию `iconUrl`, и Plyr определит, является ли URL-адрес абсолютным и требует загрузки с помощью AJAX/CORS из-за текущего браузера.
+ограничения или если это относительный путь, просто используйте путь напрямую.
 
-If you're using the `<base>` tag on your site, you may need to use something like this: [svgfixer.js](https://gist.github.com/leonderijke/c5cf7c5b2e424c0061d2)
+Если вы используете тег `<base>` на своем сайте, вам может понадобиться что-то вроде этого: [svgfixer.js](https://gist.github.com/leonderijke/c5cf7c5b2e424c0061d2)
 
-More info on SVG sprites here: [http://css-tricks.com/svg-sprites-use-better-icon-fonts/](http://css-tricks.com/svg-sprites-use-better-icon-fonts/) and the AJAX
-technique here: [http://css-tricks.com/ajaxing-svg-sprite/](http://css-tricks.com/ajaxing-svg-sprite/)
+Более подробная информация о спрайтах SVG здесь: [http://css-tricks.com/svg-sprites-use-better-icon-fonts/](http://css-tricks.com/svg-sprites-use-better- icon-fonts/) и AJAX
+техника здесь: [http://css-tricks.com/ajaxing-svg-sprite/](http://css-tricks.com/ajaxing-svg-sprite/)
 
 ## Cross Origin (CORS)
 
